@@ -10,6 +10,12 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+    </style>
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -53,9 +59,9 @@
               </div>
             </form>
             <!-- Loader -->
-            <!-- <div id="loading">
-              <img src="./img/loading.gif" alt="" />
-            </div> -->
+            <div id="loading">
+              <img src="./img/loading.gif" alt="loader" />
+            </div>
             <!-- Results -->
             <div id="results" class="mt-2">
               <h5>Results</h5>
